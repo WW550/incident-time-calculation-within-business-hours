@@ -11,7 +11,7 @@ There will be two inputs asked from the script.
 
 This helps using a local (offline) way to calculate incident/event duration without providing identifiable information outside of the working environment. All that is needed is start date/time and end date/time plus a filename you created for this calculation and the year. Ensure these columns contain both date and time (format them accordingly within Excel or LibreOffice Calc)
 
-# Installation
+# Installation (Ubuntu / Mint)
 
 ensure python3-pip is installed:
 
