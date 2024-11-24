@@ -31,6 +31,6 @@ if installation says scripts not in path, add to path like this: export PATH=$PA
 
 3. run the script as such: python3 time_filter_hol_filename.py (note the script can or rather should be in the path of the file you created to make it easier).
 4. the script will ask you for the year so it determines the right US Holidays and also for the filename where if file is called test.xlsx you enter test.xlsx.
-5. the output file will be presented in the same directory with a new name like filtered_output_with_holidays_2024.xlsx
+5. the script will generate a file named filtered_output_with_holidays_<year>.xlsx (e.g., filtered_output_with_holidays_2024.xlsx)
 
 EOF
