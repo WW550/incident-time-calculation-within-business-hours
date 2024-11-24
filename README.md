@@ -1,5 +1,5 @@
 
-# Incident time filter calculation 
+# Incident / event time filter calculation 
 <i>(removes time outside business hours)</i>
 
 This is a python script desined to output an xlsx (Excel) file with total incident duration that excludes time outside set business hours.
