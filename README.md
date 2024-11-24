@@ -9,7 +9,7 @@ There will be two inputs asked from the script.
 1. the year for the incident which dates are set to so it imports the correct US Holiday schedule
 2. the filename - this must be a file with .xlsx extension
 
-This helps using a local (offline) way to calculate incident/event duration without providing identifiable information outside of the working environment. All that is needed is start date/time and end date/time plus a filename you created for this calculation and the year. Ensure these columns contain both date and time (format them accordingly within Excel or LibreOffice Calc)
+This helps using a local (offline) way to calculate incident/event duration without providing identifiable information outside of your work environment. All that is needed is start date/time and end date/time plus a filename you created for this calculation and the year. Ensure these columns contain both date and time (format them accordingly within Excel or LibreOffice Calc)
 
 # Installation (Ubuntu / Mint)
 
