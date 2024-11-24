@@ -9,6 +9,7 @@ There will be two inputs asked from the script.
 1. the year for the incident which dates are set to so it imports the correct US Holiday schedule
 2. the filename - this must be a file with .xlsx extension
 
+# Installation
 dependencies
 ensure python3-pip is installed:
 
@@ -30,4 +31,4 @@ if installation says scripts not in path, add to path like this: export PATH=$PA
 4. the script will ask you for the year so it determines the right US Holidays and also for the filename where if file is called test.xlsx you enter test.xlsx.
 5. the output file will be presented in the same directory with a new name like filtered_output_with_holidays_2024.xlsx
 
-Hope this helps everyone needing to use a local way to calculate without giving much information anywhere outside the work area. all the is needed is start date.time and end date.time plus filename you created for this calculation and year.
+Hope this helps someone needing to use a local way to calculate incident or event duration without providing identifiable information outside the work area. All that is needed is start date/time and end date/time plus a filename you created for this calculation and the year.
