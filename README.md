@@ -26,10 +26,10 @@ if installation says scripts not in path, add to path like this: export PATH=$PA
 # <b>Usage:</b>
 
 1. create an excel.xlsx file where column A is for example a record number, column B is the start date and time, column C is the end date and time and column D is total record (total time of incident). See example included.
-   What you name each column is up to you but if you change it, you need to adjust/mod the script to accomodate that change. Those are under two sections: <p>
-     Ensure your column matches these names <--- this is where you enter the start and end date/time column (lines 58 and 59) </p> <p>
-     Apply the function to each row <--- this is where you enter the total time result (line 67) </p> <p>
-     Note - Business hours can be changed in lines 19 and 20.
+   What you name each column is up to you but if you change it, you need to adjust/mod the script to accomodate that change. Those are under these sections: <p>
+     *Ensure your column matches these names* <--- this is where you enter the start and end date/time column (lines 58 and 59) </p> <p>
+     *Apply the function to each row* <--- this is where you enter the total time result (line 67) </p> <p>
+     Note - *Business hours* can be changed in lines 19 and 20.
 
 3. run the script as such: <p>python3 time_filter_hol_filename.py <--- note the script should be in the path of the file you created to make it easier.</p>
 4. the script will ask you for the year so it determines the right US Holidays and also for the filename where if file is called test.xlsx you enter test.xlsx.
