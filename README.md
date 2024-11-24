@@ -30,7 +30,7 @@ if installation says scripts not in path, add to path like this: export PATH=$PA
      Apply the function to each row <--- this is where you enter the total time result (line 67) </p> <p>
      Note - Business hours can be changed in lines 19 and 20.
 
-3. run the script as such: python3 time_filter_hol_filename.py (note the script can or rather should be in the path of the file you created to make it easier).
+3. run the script as such: <p>python3 time_filter_hol_filename.py <--- note the script should be in the path of the file you created to make it easier.</p>
 4. the script will ask you for the year so it determines the right US Holidays and also for the filename where if file is called test.xlsx you enter test.xlsx.
 5. the script will generate a file named filtered_output_with_holidays_<year>.xlsx (e.g., filtered_output_with_holidays_2024.xlsx)
 
